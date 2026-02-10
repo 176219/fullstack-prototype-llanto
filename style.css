@@ -4,3 +4,48 @@ body.not-authenticated .role-logged-in{display:none}
 body.authenticated .role-logged-out{display:none}
 .role-admin{display:none}
 body.is-admin .role-admin{display:block}
+
+
+
+
+/* Login Form css */
+
+.login-wrapper {
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.login-card {
+    width: 100%;
+    max-width: 380px;
+    padding: 2rem;
+    background: white;
+    border-radius: 16px;
+    border: 1px solid white;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, .5);
+    text-align: center;
+}
+.login-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 1rem;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.2rem;
+}
+.login-title {
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.login-subtitle {
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 1.5rem;
+}
