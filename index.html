@@ -51,10 +51,37 @@
         </section>
         
         <section id="register" class="page">
-            <h2>Register</h2>
-            <input id="regEmail" class="form-control mb-2" placeholder="Email" />
-            <input id="regPassword" class="form-control mb-2" placeholder="Password">
-            <button class="btn btn-primary" onclick="register()">Register</button>
+            <div class="login-wrapper">
+                <div class="login-card">
+
+                    <div class="login-icon">hello</div>
+
+                    <h3 class="login-title">Register account</h3>
+
+                    <input
+                        id="regFirstName"
+                        type="text"
+                        class="form-control mb-3"
+                        placeholder="First Name"/>
+
+                    <input
+                        id="regLastName"
+                        type="text"
+                        class="form-control mb-3"
+                        placeholder="Last Name"/>
+
+                    <input
+                        id="regEmail"
+                        type="email"
+                        class="form-control mb-3"
+                        placeholder="Email"/>
+
+                    <input
+                        id="regPassword"
+                        type="password"
+                        class="form-control mb-3"
+                        placeholder="Password"/>
+
         </section>    
 
         <section id="verify" class="page">
@@ -63,11 +90,34 @@
             <button class="btn btn-success" onclick="verifyEmail()">Verify Email</button>
         </section>
 
-        <section id="login" class="page">
-            <h2>Login</h2>
-            <input id="loginEmail" class="form-control mb-2" placeholder="Email" />
-            <input id="loginPassword" class="form-control mb-2" placeholder="Password" />
-            <button class="btn btn-primary" onclick="login()">Login</button>
+        <section id="login" class="page active">
+            <div class="login-wrapper">
+                <div class="login-card">
+
+                    <div class="login-icon">👤</div>
+
+                    <h3 class="login-title">welcome back</h3>
+                    <p class="login-subtitle">Please log in to continue</p>
+                    <input
+                        id="logEmail"
+                        type="email"
+                        class="form-control mb-3"
+                        placeholder="Email"
+                        required
+                    />
+                    <input
+                        id="logPassword"
+                        type="password"
+                        class="form-control mb-3"
+                        placeholder="Password"
+                        required
+                    />
+
+                    <button class="btn btn-primary w-100 mb-3" onclick="login()">
+                        login
+                    </button>
+                </div>
+            </div>
         </section>
 
         <section id="profile" class="page">
